@@ -33,7 +33,7 @@ dependencies {
 <dependency>
     <groupId>com.github.karbalanajaf</groupId>
     <artifactId>karbalawms</artifactId>
-    <version>v1.0</version>
+    <version>v1.1</version>
 </dependency>
 ```
 ##Access To WMS Servers
