@@ -18,7 +18,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	        compile 'com.github.karbalanajaf:karbalawms:v1.0'
+	        compile 'com.github.karbalanajaf:karbalawms:v1.1'
 }
 ```
 
