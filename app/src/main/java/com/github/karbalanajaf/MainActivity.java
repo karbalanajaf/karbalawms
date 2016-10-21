@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 .progress(true, 0)
                 .build();
         TextView listServer = (TextView) findViewById(R.id.listServer);
-        String serverString = ConfigMap.MAP_SERVER + "\n\n" + ConfigMap.GET_CAPABILITIES + "\n\n" + ConfigMap.GET_MAP + "\n\n" + ConfigMap.GEt_FEATURE_INFO;
+        String serverString = ConfigMap.MAP_SERVER + "\n\n" + ConfigMap.GET_CAPABILITIES + "\n\n" + ConfigMap.GET_MAP + "\n\n" + ConfigMap.GET_FEATURE_INFO;
         listServer.setText(serverString);
         Button getData = (Button) findViewById(R.id.getData);
         getData.setOnClickListener(new View.OnClickListener() {
